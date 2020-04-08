@@ -1,0 +1,280 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face{
+    font-family: oh;
+    src: url(../Fonts/whitney-bold.otf);
+}
+
+@font-face{
+    font-family: ah;
+    src: url(../Fonts/whitney-book.otf);
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    background-color: #24262c;
+}
+
+.minicontainer3{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 700px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    height: 50px;
+    width: 150px;
+    margin-left: 30px;
+    padding-top: 7px;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6{
+    font-size: 14px;
+    font-family: 'ah';
+    color: rgb(204, 204, 204);
+    width: fit-content;
+}
+
+.minicontainer4{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 650px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rs1{
+    margin-left: 460px;
+}
+
+.rs1, .rs2, .rs3{
+    height: 30px;
+    width: 30px;
+    padding-top: 15px;
+}
+
+.botao2 button{
+    color: white;
+    height: 30px;
+    width: 70px;
+    border-radius: 100px;
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0);
+    margin-right: 10px;
+}
+
+.container2{
+    background-color: #24262c;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.minicontainer5{
+    height: 20vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.texto1 h1{
+    color: white;
+    font-family: 'oh';
+    font-size: 36px;
+}
+
+.minicontainer6{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto2 p, .texto3 p{
+    color: white;
+    font-size: 16px;
+    font-family: 'ah';
+}
+
+.minicontainer7{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.botao3 button{
+    color: #18191c;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'ah';
+    width: 260px;
+    height: 40px;
+}
+
+.botao4 button{
+    color: white;
+    background-color: #7289DA;
+    border-color: #7289DA;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'ah';
+    width: 260px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.container3{
+    height: 100vh;
+    display: flex;
+    background-image: url(../Imagem/fundoooo.PNG);
+}
+
+.container4{
+    height: 60vh;
+    display: flex;
+    background-image: url(../Imagem/fundo2.png);
+    background-size: 100vw 60vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.minicontainer1{
+    height: 35vh;
+    width: 1050px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    height: 150px;
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.box1 img{
+    display: flex;
+    height: 40px;
+    width: 40px;
+}
+
+.box2 .topic1{
+    font-family: 'ah';
+    font-size: 14px;
+    color: white;
+}
+
+.box2 .subtopic1, .subtopic2, .subtopic3{
+    font-size: 14px;
+    font-family: 'ah';
+    color: rgb(204, 204, 204);
+}
+
+.box3 .topic2{
+    font-family: 'ah';
+    font-size: 14px;
+    color: white;
+}
+
+.box3 .subtopic4, .subtopic5, .subtopic6, .subtopic7, .subtopic8{
+    font-size: 14px;
+    font-family: 'ah';
+    color: rgb(204, 204, 204);
+}
+
+.box4 .topic3{
+    font-family: 'ah';
+    font-size: 14px;
+    color: white;
+}
+
+.box4 .subtopic9, .subtopic10, .subtopic11, .subtopic12, .subtopic13, .subtopic14{
+    font-size: 14px;
+    font-family: 'ah';
+    color: rgb(204, 204, 204);
+}
+
+.box5 .topic4{
+    font-family: 'ah';
+    font-size: 14px;
+    color: white;
+}
+
+.box5 .subtopic15, .subtopic16, .subtopic17{
+    font-size: 14px;
+    font-family: 'ah';
+    color: rgb(204, 204, 204);
+}
+
+.box6 .topic5{
+    font-family: 'ah';
+    font-size: 14px;
+    color: white;
+}
+
+.box6 .subtopic18, .subtopic19, .subtopic20, .subtopic21{
+    font-size: 14px;
+    font-family: 'ah';
+    color: rgb(204, 204, 204);
+}
+
+.minicontainer2{
+    height: 25vh;
+    width: 1050px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box7{
+    display: flex;
+    flex-direction: column;;
+    width: 600px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.text1 b{
+    color: white;
+    font-family: 'ah';
+    font-size: 20pt;
+}
+
+.text2 p{
+    color: white;
+    font-family: 'ah';
+    font-size: 10pt;
+}
+
+.box8{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.botao1 button{
+    background-color: #7289DA;
+    color: white;
+    border-radius: 10px;
+    border-color: #7289DA;
+    font-family: 'ah';
+    font-size: 12pt;
+    height: 50px;
+    width: 150px;
+}
